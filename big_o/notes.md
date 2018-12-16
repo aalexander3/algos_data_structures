@@ -84,12 +84,13 @@
  - data structures + algorithms === programs
  - keep it readable and scalable
 
-# three pillars of code
+# 3 pillars of code
+### what makes for good code?
+ - readable, memory and speed
  - readable
  - scalable
     - time complexity
     - space complexity
-  - memory and speed
 
 # how to measure space complexity
  - the heap and the stack
