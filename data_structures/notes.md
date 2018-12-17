@@ -39,4 +39,5 @@ Programs get saved into storage and get persisted
  - search
  - sort
  - access
- 
+
+### NOTE - any string questions are basically array questions
