@@ -73,3 +73,64 @@
   - flexible size
  - downside:
   - no O(1) operations
+
+
+### AVL Tree & Red/Black Tree
+---
+ - automatically rebalances the tree
+ - performs a rotation
+
+
+### Heap & Binary Heaps (data structure)
+---
+ - Binary -- two children
+ - Heap
+ - every child node is smaller than the parent node (max heap)
+ - also can have min heap
+ - value can be anything
+ - top level has the greatest value
+ - lookup O(n)
+ - insert O(log n)
+ - delete O(log n)
+ - great at comparative operations
+ - heaps maintain the order
+ - will do a switch after the insert if the placement isn't quite right
+ - memory heap !== heap data structure
+ - no order from left to right
+ - left to right insertion
+ - memory efficient
+
+### Priority Queue
+---
+ - each element has a priority
+ - element with higher priority gets served first
+ - everything stays balanced
+ - order is easy
+ - flexible size
+ - fast insert
+ - slow lookup
+
+
+### Trie
+---
+ - Specialized tree
+ - has a starting point
+ - multiple children
+ - prefix tree
+ - many letters
+ - autocompletion
+ - can search through words in dictionary
+ - O(length of word)
+ - very fast!
+ - space complexity
+ - also good! letters get stored and have similarities
+
+
+
+
+
+
+
+
+
+---
