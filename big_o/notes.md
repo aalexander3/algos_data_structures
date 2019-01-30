@@ -39,6 +39,13 @@
  - adding a nested loop for every input that we have
  - very expensive (not very common)
 
+# O(2 ^ n)
+---
+ - Exponential Time
+ - really bad!
+ - worse than nested for loops
+ - exponential time is really slow
+
 ---
 # Calculating big O
 ---
