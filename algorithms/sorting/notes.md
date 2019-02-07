@@ -55,3 +55,30 @@ how does selection sort work?
 ## Insertion Sort
 ---
 how does insertion sort work?
+ - not the most efficient, but some extremely fast cases
+ - if its already sorted or pretty close
+ - picks out the spot where the value fits in
+ - shifts the rest of the values to make room for the number being inserted
+ - best case: O(n)
+ - great for small data sets and nearly sorted data sets
+
+## Merge Sort
+---
+can we do better than O(n^2)???
+  - yes
+  - O(n logn)
+  - with merge sort and quick sort
+  - divide and conquer technique
+  - start in the middle and go from there
+  - also recursive
+
+how does merge sort work?
+ - divide the list in half
+ - divide lists in half again
+ - and again
+ - until we have one item in each sub list
+ - compare the first two lists
+ - order them
+ - building sort of a reversed tree
+ - order each list comparing the left side lists to the right side
+ - stable - keeps original 
