@@ -81,4 +81,101 @@ how does merge sort work?
  - order them
  - building sort of a reversed tree
  - order each list comparing the left side lists to the right side
- - stable - keeps original 
+ - stable - keeps original
+
+## Quick Sort
+---
+| TIME COMPLEXITY                    | SPACE COMPLEXITY |
+|------------------------------------|------------------|
+| BEST       | AVERAGE      | WORST  |                  | 
+|------------|--------------|--------|------------------|
+| Ω(n log(n))| Θ(n log(n))  |	O(n^2) | Θ(log(n))        |
+
+how does quick sort work?
+ - divide and conquer algorithm
+ - o(n logn)
+ - uses a pivoting technique to break the main list into smaller lists
+ - pick a random pivot
+ - all numbers greater than that pivot go to the right
+ - all numbers that are less than that pivot go to the left
+ - how to pick the pivot point?
+ - could always be the last item in the array
+ - how to code it??
+ - really really useful
+ - one of the most used algorithms
+ - really good space complexity! O(log n)
+ - worst case
+
+
+## Which sort is best?
+---
+When to use Insertion sort?
+ - small inputs
+ - items are mostly sorted
+
+Bubble sort
+ - never going to use
+ - not very efficient
+
+ Selection sort
+  - not going to use
+  - not very efficient
+
+Merge Sort
+ - fast sorting mech
+ - commonly used
+ - O(n logn)
+ - worried about worst case scenarios?
+ - external sorting
+ - not great space complexity
+
+Quick Sort
+ - most popular
+ - careful at picking pivots
+ - not great if you're worried about worst case
+
+Heap sort
+ - also fast
+ - good memory
+ - doesn't take up extra space
+ - is on average slower than quick sort
+
+## Radix sort and counting sort
+---
+Bucket sort, counting sort, radix sort
+ - non comparison sorting
+ - only works with numbers in a restricted range
+ - fixed length integers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
